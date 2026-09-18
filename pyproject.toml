@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jev-loan-identity-benchmark"
+version = "0.1.0"
+description = "Reproducible synthetic benchmark for temporal loan identity resolution with TypeSafe Jev"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["typesafe-sdk==0.7.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

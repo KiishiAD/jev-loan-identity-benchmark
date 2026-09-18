@@ -1,0 +1,1688 @@
+{
+  "acceptance": {
+    "checks": {
+      "confirmed_precision_at_least_90pct": true,
+      "confirmed_recall_at_least_80pct": true,
+      "false_merge_rate_at_most_10pct": true,
+      "jev_top1_accuracy_at_least_90pct": true,
+      "live_p95_at_most_10_seconds": true,
+      "retrieval_recall_at_k_at_least_98pct": true,
+      "zero_false_merges": true,
+      "zero_provider_errors": true
+    },
+    "passed": true
+  },
+  "development": {
+    "by_scenario": {
+      "amendment_current": {
+        "confirmed_coverage": 1.0,
+        "confirmed_precision": 1.0,
+        "confirmed_precision_95pct_wilson": [
+          0.34238022750665303,
+          1.0
+        ],
+        "confirmed_recall": 1.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 2,
+          "negatives": 0,
+          "no_matches": 0,
+          "positives": 2,
+          "reviews": 0,
+          "safe_negative": 0,
+          "total": 2,
+          "true_positive": 2
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 1.5747624188661575,
+          "p50": 0.9127940330654383,
+          "p95": 1.5747624188661575,
+          "p99": 1.5747624188661575
+        },
+        "no_match_rate": 0.0,
+        "positive_coverage": 1.0,
+        "retrieval_recall_at_1": 1.0,
+        "retrieval_recall_at_k": 1.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 0.0
+      },
+      "amount_drift": {
+        "confirmed_coverage": 1.0,
+        "confirmed_precision": 1.0,
+        "confirmed_precision_95pct_wilson": [
+          0.34238022750665303,
+          1.0
+        ],
+        "confirmed_recall": 1.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 2,
+          "negatives": 0,
+          "no_matches": 0,
+          "positives": 2,
+          "reviews": 0,
+          "safe_negative": 0,
+          "total": 2,
+          "true_positive": 2
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 1.6576510686427355,
+          "p50": 1.120050871744752,
+          "p95": 1.6576510686427355,
+          "p99": 1.6576510686427355
+        },
+        "no_match_rate": 0.0,
+        "positive_coverage": 1.0,
+        "retrieval_recall_at_1": 1.0,
+        "retrieval_recall_at_k": 1.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 0.0
+      },
+      "currency_conflict_no_match": {
+        "confirmed_coverage": 0.0,
+        "confirmed_precision": 0.0,
+        "confirmed_precision_95pct_wilson": [
+          0.0,
+          0.0
+        ],
+        "confirmed_recall": 0.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 0,
+          "negatives": 2,
+          "no_matches": 2,
+          "positives": 0,
+          "reviews": 0,
+          "safe_negative": 2,
+          "total": 2,
+          "true_positive": 0
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 1.5177483763545752,
+          "p50": 0.9245900753885508,
+          "p95": 1.5177483763545752,
+          "p99": 1.5177483763545752
+        },
+        "no_match_rate": 1.0,
+        "positive_coverage": 0.0,
+        "retrieval_recall_at_1": 0.0,
+        "retrieval_recall_at_k": 0.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 1.0
+      },
+      "facility_alias": {
+        "confirmed_coverage": 1.0,
+        "confirmed_precision": 1.0,
+        "confirmed_precision_95pct_wilson": [
+          0.5101091635454027,
+          1.0
+        ],
+        "confirmed_recall": 1.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 4,
+          "negatives": 0,
+          "no_matches": 0,
+          "positives": 4,
+          "reviews": 0,
+          "safe_negative": 0,
+          "total": 4,
+          "true_positive": 4
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 1.708375720307231,
+          "p50": 1.135716449469328,
+          "p95": 1.708375720307231,
+          "p99": 1.708375720307231
+        },
+        "no_match_rate": 0.0,
+        "positive_coverage": 1.0,
+        "retrieval_recall_at_1": 1.0,
+        "retrieval_recall_at_k": 1.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 0.0
+      },
+      "legal_suffix_variation": {
+        "confirmed_coverage": 1.0,
+        "confirmed_precision": 1.0,
+        "confirmed_precision_95pct_wilson": [
+          0.34238022750665303,
+          1.0
+        ],
+        "confirmed_recall": 1.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 2,
+          "negatives": 0,
+          "no_matches": 0,
+          "positives": 2,
+          "reviews": 0,
+          "safe_negative": 0,
+          "total": 2,
+          "true_positive": 2
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 1.7711247503757477,
+          "p50": 1.3255683444440365,
+          "p95": 1.7711247503757477,
+          "p99": 1.7711247503757477
+        },
+        "no_match_rate": 0.0,
+        "positive_coverage": 1.0,
+        "retrieval_recall_at_1": 1.0,
+        "retrieval_recall_at_k": 1.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 0.0
+      },
+      "missing_fields": {
+        "confirmed_coverage": 1.0,
+        "confirmed_precision": 1.0,
+        "confirmed_precision_95pct_wilson": [
+          0.34238022750665303,
+          1.0
+        ],
+        "confirmed_recall": 1.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 2,
+          "negatives": 0,
+          "no_matches": 0,
+          "positives": 2,
+          "reviews": 0,
+          "safe_negative": 0,
+          "total": 2,
+          "true_positive": 2
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 1.466137707233429,
+          "p50": 1.158975275233388,
+          "p95": 1.466137707233429,
+          "p99": 1.466137707233429
+        },
+        "no_match_rate": 0.0,
+        "positive_coverage": 1.0,
+        "retrieval_recall_at_1": 1.0,
+        "retrieval_recall_at_k": 1.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 0.0
+      },
+      "near_name_no_match": {
+        "confirmed_coverage": 0.0,
+        "confirmed_precision": 0.0,
+        "confirmed_precision_95pct_wilson": [
+          0.0,
+          0.0
+        ],
+        "confirmed_recall": 0.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 0,
+          "negatives": 2,
+          "no_matches": 2,
+          "positives": 0,
+          "reviews": 0,
+          "safe_negative": 2,
+          "total": 2,
+          "true_positive": 0
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 1.791363587602973,
+          "p50": 1.1197480857372284,
+          "p95": 1.791363587602973,
+          "p99": 1.791363587602973
+        },
+        "no_match_rate": 1.0,
+        "positive_coverage": 0.0,
+        "retrieval_recall_at_1": 0.0,
+        "retrieval_recall_at_k": 0.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 1.0
+      },
+      "ocr_noise": {
+        "confirmed_coverage": 1.0,
+        "confirmed_precision": 1.0,
+        "confirmed_precision_95pct_wilson": [
+          0.34238022750665303,
+          1.0
+        ],
+        "confirmed_recall": 1.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 2,
+          "negatives": 0,
+          "no_matches": 0,
+          "positives": 2,
+          "reviews": 0,
+          "safe_negative": 0,
+          "total": 2,
+          "true_positive": 2
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 1.694673528894782,
+          "p50": 1.2849509827792645,
+          "p95": 1.694673528894782,
+          "p99": 1.694673528894782
+        },
+        "no_match_rate": 0.0,
+        "positive_coverage": 1.0,
+        "retrieval_recall_at_1": 1.0,
+        "retrieval_recall_at_k": 1.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 0.0
+      },
+      "refinancing_no_match": {
+        "confirmed_coverage": 0.0,
+        "confirmed_precision": 0.0,
+        "confirmed_precision_95pct_wilson": [
+          0.0,
+          0.0
+        ],
+        "confirmed_recall": 0.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 0,
+          "negatives": 2,
+          "no_matches": 2,
+          "positives": 0,
+          "reviews": 0,
+          "safe_negative": 2,
+          "total": 2,
+          "true_positive": 0
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 1.5319684315472841,
+          "p50": 1.124893058091402,
+          "p95": 1.5319684315472841,
+          "p99": 1.5319684315472841
+        },
+        "no_match_rate": 1.0,
+        "positive_coverage": 0.0,
+        "retrieval_recall_at_1": 0.0,
+        "retrieval_recall_at_k": 0.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 1.0
+      },
+      "same_borrower_sibling": {
+        "confirmed_coverage": 1.0,
+        "confirmed_precision": 1.0,
+        "confirmed_precision_95pct_wilson": [
+          0.34238022750665303,
+          1.0
+        ],
+        "confirmed_recall": 1.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 2,
+          "negatives": 0,
+          "no_matches": 0,
+          "positives": 2,
+          "reviews": 0,
+          "safe_negative": 0,
+          "total": 2,
+          "true_positive": 2
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 1.348551394417882,
+          "p50": 0.94154386036098,
+          "p95": 1.348551394417882,
+          "p99": 1.348551394417882
+        },
+        "no_match_rate": 0.0,
+        "positive_coverage": 1.0,
+        "retrieval_recall_at_1": 1.0,
+        "retrieval_recall_at_k": 1.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 0.0
+      },
+      "sponsor_confusion_no_match": {
+        "confirmed_coverage": 0.0,
+        "confirmed_precision": 0.0,
+        "confirmed_precision_95pct_wilson": [
+          0.0,
+          0.0
+        ],
+        "confirmed_recall": 0.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 0,
+          "negatives": 2,
+          "no_matches": 2,
+          "positives": 0,
+          "reviews": 0,
+          "safe_negative": 2,
+          "total": 2,
+          "true_positive": 0
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 1.3060944862663746,
+          "p50": 0.9319804348051548,
+          "p95": 1.3060944862663746,
+          "p99": 1.3060944862663746
+        },
+        "no_match_rate": 1.0,
+        "positive_coverage": 0.0,
+        "retrieval_recall_at_1": 0.0,
+        "retrieval_recall_at_k": 0.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 1.0
+      },
+      "stale_amendment": {
+        "confirmed_coverage": 1.0,
+        "confirmed_precision": 1.0,
+        "confirmed_precision_95pct_wilson": [
+          0.34238022750665303,
+          1.0
+        ],
+        "confirmed_recall": 1.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 2,
+          "negatives": 0,
+          "no_matches": 0,
+          "positives": 2,
+          "reviews": 0,
+          "safe_negative": 0,
+          "total": 2,
+          "true_positive": 2
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 1.4820434525609016,
+          "p50": 0.947495099157095,
+          "p95": 1.4820434525609016,
+          "p99": 1.4820434525609016
+        },
+        "no_match_rate": 0.0,
+        "positive_coverage": 1.0,
+        "retrieval_recall_at_1": 1.0,
+        "retrieval_recall_at_k": 1.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 0.0
+      },
+      "typo_alias": {
+        "confirmed_coverage": 0.5,
+        "confirmed_precision": 1.0,
+        "confirmed_precision_95pct_wilson": [
+          0.20654931437723745,
+          1.0
+        ],
+        "confirmed_recall": 0.5,
+        "counts": {
+          "errors": 0,
+          "false_negative": 1,
+          "false_positive": 0,
+          "matches": 1,
+          "negatives": 0,
+          "no_matches": 1,
+          "positives": 2,
+          "reviews": 0,
+          "safe_negative": 0,
+          "total": 2,
+          "true_positive": 1
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 0.5,
+        "latency_seconds": {
+          "max": 1.3155314438045025,
+          "p50": 0.9914090074598789,
+          "p95": 1.3155314438045025,
+          "p99": 1.3155314438045025
+        },
+        "no_match_rate": 0.5,
+        "positive_coverage": 0.5,
+        "retrieval_recall_at_1": 1.0,
+        "retrieval_recall_at_k": 1.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 0.0
+      },
+      "unseen_second_lien_no_match": {
+        "confirmed_coverage": 0.0,
+        "confirmed_precision": 0.0,
+        "confirmed_precision_95pct_wilson": [
+          0.0,
+          0.0
+        ],
+        "confirmed_recall": 0.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 0,
+          "negatives": 2,
+          "no_matches": 2,
+          "positives": 0,
+          "reviews": 0,
+          "safe_negative": 2,
+          "total": 2,
+          "true_positive": 0
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 1.7700785622000694,
+          "p50": 1.2903425991535187,
+          "p95": 1.7700785622000694,
+          "p99": 1.7700785622000694
+        },
+        "no_match_rate": 1.0,
+        "positive_coverage": 0.0,
+        "retrieval_recall_at_1": 0.0,
+        "retrieval_recall_at_k": 0.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 1.0
+      }
+    },
+    "confirmed_coverage": 0.6333333333333333,
+    "confirmed_precision": 1.0,
+    "confirmed_precision_95pct_wilson": [
+      0.8318207759473837,
+      1.0
+    ],
+    "confirmed_recall": 0.95,
+    "counts": {
+      "errors": 0,
+      "false_negative": 1,
+      "false_positive": 0,
+      "matches": 19,
+      "negatives": 10,
+      "no_matches": 11,
+      "positives": 20,
+      "reviews": 0,
+      "safe_negative": 10,
+      "total": 30,
+      "true_positive": 19
+    },
+    "error_rate": 0.0,
+    "false_merge_rate": 0.0,
+    "jev_top1_accuracy": 0.9666666666666667,
+    "latency_seconds": {
+      "max": 1.791363587602973,
+      "p50": 1.3060944862663746,
+      "p95": 1.7711247503757477,
+      "p99": 1.791363587602973
+    },
+    "no_match_rate": 0.36666666666666664,
+    "positive_coverage": 0.95,
+    "retrieval_recall_at_1": 1.0,
+    "retrieval_recall_at_k": 1.0,
+    "review_rate": 0.0,
+    "safe_negative_rate": 1.0
+  },
+  "live_wall_seconds": 5.614661233499646,
+  "replay_quality_identical": true,
+  "test_live": {
+    "by_scenario": {
+      "amendment_current": {
+        "confirmed_coverage": 1.0,
+        "confirmed_precision": 1.0,
+        "confirmed_precision_95pct_wilson": [
+          0.5101091635454027,
+          1.0
+        ],
+        "confirmed_recall": 1.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 4,
+          "negatives": 0,
+          "no_matches": 0,
+          "positives": 4,
+          "reviews": 0,
+          "safe_negative": 0,
+          "total": 4,
+          "true_positive": 4
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 2.552571589127183,
+          "p50": 1.4116471037268639,
+          "p95": 2.552571589127183,
+          "p99": 2.552571589127183
+        },
+        "no_match_rate": 0.0,
+        "positive_coverage": 1.0,
+        "retrieval_recall_at_1": 1.0,
+        "retrieval_recall_at_k": 1.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 0.0
+      },
+      "amount_drift": {
+        "confirmed_coverage": 1.0,
+        "confirmed_precision": 1.0,
+        "confirmed_precision_95pct_wilson": [
+          0.5101091635454027,
+          1.0
+        ],
+        "confirmed_recall": 1.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 4,
+          "negatives": 0,
+          "no_matches": 0,
+          "positives": 4,
+          "reviews": 0,
+          "safe_negative": 0,
+          "total": 4,
+          "true_positive": 4
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 2.756492167711258,
+          "p50": 1.7304344661533833,
+          "p95": 2.756492167711258,
+          "p99": 2.756492167711258
+        },
+        "no_match_rate": 0.0,
+        "positive_coverage": 1.0,
+        "retrieval_recall_at_1": 1.0,
+        "retrieval_recall_at_k": 1.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 0.0
+      },
+      "currency_conflict_no_match": {
+        "confirmed_coverage": 0.0,
+        "confirmed_precision": 0.0,
+        "confirmed_precision_95pct_wilson": [
+          0.0,
+          0.0
+        ],
+        "confirmed_recall": 0.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 0,
+          "negatives": 4,
+          "no_matches": 4,
+          "positives": 0,
+          "reviews": 0,
+          "safe_negative": 4,
+          "total": 4,
+          "true_positive": 0
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 2.605936959385872,
+          "p50": 1.4074852894991636,
+          "p95": 2.605936959385872,
+          "p99": 2.605936959385872
+        },
+        "no_match_rate": 1.0,
+        "positive_coverage": 0.0,
+        "retrieval_recall_at_1": 0.0,
+        "retrieval_recall_at_k": 0.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 1.0
+      },
+      "facility_alias": {
+        "confirmed_coverage": 1.0,
+        "confirmed_precision": 1.0,
+        "confirmed_precision_95pct_wilson": [
+          0.6755924351161198,
+          1.0
+        ],
+        "confirmed_recall": 1.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 8,
+          "negatives": 0,
+          "no_matches": 0,
+          "positives": 8,
+          "reviews": 0,
+          "safe_negative": 0,
+          "total": 8,
+          "true_positive": 8
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 2.681672155857086,
+          "p50": 1.6389313619583845,
+          "p95": 2.681672155857086,
+          "p99": 2.681672155857086
+        },
+        "no_match_rate": 0.0,
+        "positive_coverage": 1.0,
+        "retrieval_recall_at_1": 1.0,
+        "retrieval_recall_at_k": 1.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 0.0
+      },
+      "legal_suffix_variation": {
+        "confirmed_coverage": 1.0,
+        "confirmed_precision": 1.0,
+        "confirmed_precision_95pct_wilson": [
+          0.5101091635454027,
+          1.0
+        ],
+        "confirmed_recall": 1.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 4,
+          "negatives": 0,
+          "no_matches": 0,
+          "positives": 4,
+          "reviews": 0,
+          "safe_negative": 0,
+          "total": 4,
+          "true_positive": 4
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 2.8122107945382595,
+          "p50": 1.7976508885622025,
+          "p95": 2.8122107945382595,
+          "p99": 2.8122107945382595
+        },
+        "no_match_rate": 0.0,
+        "positive_coverage": 1.0,
+        "retrieval_recall_at_1": 1.0,
+        "retrieval_recall_at_k": 1.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 0.0
+      },
+      "missing_fields": {
+        "confirmed_coverage": 1.0,
+        "confirmed_precision": 1.0,
+        "confirmed_precision_95pct_wilson": [
+          0.5101091635454027,
+          1.0
+        ],
+        "confirmed_recall": 1.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 4,
+          "negatives": 0,
+          "no_matches": 0,
+          "positives": 4,
+          "reviews": 0,
+          "safe_negative": 0,
+          "total": 4,
+          "true_positive": 4
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 2.5555625054985285,
+          "p50": 1.4546537827700377,
+          "p95": 2.5555625054985285,
+          "p99": 2.5555625054985285
+        },
+        "no_match_rate": 0.0,
+        "positive_coverage": 1.0,
+        "retrieval_recall_at_1": 1.0,
+        "retrieval_recall_at_k": 1.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 0.0
+      },
+      "near_name_no_match": {
+        "confirmed_coverage": 0.0,
+        "confirmed_precision": 0.0,
+        "confirmed_precision_95pct_wilson": [
+          0.0,
+          0.0
+        ],
+        "confirmed_recall": 0.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 0,
+          "negatives": 4,
+          "no_matches": 4,
+          "positives": 0,
+          "reviews": 0,
+          "safe_negative": 4,
+          "total": 4,
+          "true_positive": 0
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 2.8686257507652044,
+          "p50": 1.6392762884497643,
+          "p95": 2.8686257507652044,
+          "p99": 2.8686257507652044
+        },
+        "no_match_rate": 1.0,
+        "positive_coverage": 0.0,
+        "retrieval_recall_at_1": 0.0,
+        "retrieval_recall_at_k": 0.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 1.0
+      },
+      "ocr_noise": {
+        "confirmed_coverage": 1.0,
+        "confirmed_precision": 1.0,
+        "confirmed_precision_95pct_wilson": [
+          0.5101091635454027,
+          1.0
+        ],
+        "confirmed_recall": 1.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 4,
+          "negatives": 0,
+          "no_matches": 0,
+          "positives": 4,
+          "reviews": 0,
+          "safe_negative": 0,
+          "total": 4,
+          "true_positive": 4
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 2.795604484155774,
+          "p50": 1.719381794333458,
+          "p95": 2.795604484155774,
+          "p99": 2.795604484155774
+        },
+        "no_match_rate": 0.0,
+        "positive_coverage": 1.0,
+        "retrieval_recall_at_1": 1.0,
+        "retrieval_recall_at_k": 1.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 0.0
+      },
+      "refinancing_no_match": {
+        "confirmed_coverage": 0.0,
+        "confirmed_precision": 0.0,
+        "confirmed_precision_95pct_wilson": [
+          0.0,
+          0.0
+        ],
+        "confirmed_recall": 0.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 0,
+          "negatives": 4,
+          "no_matches": 4,
+          "positives": 0,
+          "reviews": 0,
+          "safe_negative": 4,
+          "total": 4,
+          "true_positive": 0
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 2.6867364458739758,
+          "p50": 1.601927511394024,
+          "p95": 2.6867364458739758,
+          "p99": 2.6867364458739758
+        },
+        "no_match_rate": 1.0,
+        "positive_coverage": 0.0,
+        "retrieval_recall_at_1": 0.0,
+        "retrieval_recall_at_k": 0.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 1.0
+      },
+      "same_borrower_sibling": {
+        "confirmed_coverage": 1.0,
+        "confirmed_precision": 1.0,
+        "confirmed_precision_95pct_wilson": [
+          0.5101091635454027,
+          1.0
+        ],
+        "confirmed_recall": 1.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 4,
+          "negatives": 0,
+          "no_matches": 0,
+          "positives": 4,
+          "reviews": 0,
+          "safe_negative": 0,
+          "total": 4,
+          "true_positive": 4
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 2.3791963271796703,
+          "p50": 1.228994220495224,
+          "p95": 2.3791963271796703,
+          "p99": 2.3791963271796703
+        },
+        "no_match_rate": 0.0,
+        "positive_coverage": 1.0,
+        "retrieval_recall_at_1": 1.0,
+        "retrieval_recall_at_k": 1.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 0.0
+      },
+      "sponsor_confusion_no_match": {
+        "confirmed_coverage": 0.0,
+        "confirmed_precision": 0.0,
+        "confirmed_precision_95pct_wilson": [
+          0.0,
+          0.0
+        ],
+        "confirmed_recall": 0.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 0,
+          "negatives": 4,
+          "no_matches": 4,
+          "positives": 0,
+          "reviews": 0,
+          "safe_negative": 4,
+          "total": 4,
+          "true_positive": 0
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 2.4387840759009123,
+          "p50": 1.6846816707402468,
+          "p95": 2.4387840759009123,
+          "p99": 2.4387840759009123
+        },
+        "no_match_rate": 1.0,
+        "positive_coverage": 0.0,
+        "retrieval_recall_at_1": 0.0,
+        "retrieval_recall_at_k": 0.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 1.0
+      },
+      "stale_amendment": {
+        "confirmed_coverage": 1.0,
+        "confirmed_precision": 1.0,
+        "confirmed_precision_95pct_wilson": [
+          0.5101091635454027,
+          1.0
+        ],
+        "confirmed_recall": 1.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 4,
+          "negatives": 0,
+          "no_matches": 0,
+          "positives": 4,
+          "reviews": 0,
+          "safe_negative": 0,
+          "total": 4,
+          "true_positive": 4
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 2.480237787589431,
+          "p50": 1.447489621117711,
+          "p95": 2.480237787589431,
+          "p99": 2.480237787589431
+        },
+        "no_match_rate": 0.0,
+        "positive_coverage": 1.0,
+        "retrieval_recall_at_1": 1.0,
+        "retrieval_recall_at_k": 1.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 0.0
+      },
+      "typo_alias": {
+        "confirmed_coverage": 0.75,
+        "confirmed_precision": 1.0,
+        "confirmed_precision_95pct_wilson": [
+          0.4385029682449546,
+          1.0
+        ],
+        "confirmed_recall": 0.75,
+        "counts": {
+          "errors": 0,
+          "false_negative": 1,
+          "false_positive": 0,
+          "matches": 3,
+          "negatives": 0,
+          "no_matches": 0,
+          "positives": 4,
+          "reviews": 1,
+          "safe_negative": 0,
+          "total": 4,
+          "true_positive": 3
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 2.365332590416074,
+          "p50": 1.2214672733098269,
+          "p95": 2.365332590416074,
+          "p99": 2.365332590416074
+        },
+        "no_match_rate": 0.0,
+        "positive_coverage": 0.75,
+        "retrieval_recall_at_1": 1.0,
+        "retrieval_recall_at_k": 1.0,
+        "review_rate": 0.25,
+        "safe_negative_rate": 0.0
+      },
+      "unseen_second_lien_no_match": {
+        "confirmed_coverage": 0.0,
+        "confirmed_precision": 0.0,
+        "confirmed_precision_95pct_wilson": [
+          0.0,
+          0.0
+        ],
+        "confirmed_recall": 0.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 0,
+          "negatives": 4,
+          "no_matches": 4,
+          "positives": 0,
+          "reviews": 0,
+          "safe_negative": 4,
+          "total": 4,
+          "true_positive": 0
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 2.8544837459921837,
+          "p50": 1.8486302457749844,
+          "p95": 2.8544837459921837,
+          "p99": 2.8544837459921837
+        },
+        "no_match_rate": 1.0,
+        "positive_coverage": 0.0,
+        "retrieval_recall_at_1": 0.0,
+        "retrieval_recall_at_k": 0.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 1.0
+      }
+    },
+    "confirmed_coverage": 0.65,
+    "confirmed_precision": 1.0,
+    "confirmed_precision_95pct_wilson": [
+      0.9103331462924287,
+      1.0
+    ],
+    "confirmed_recall": 0.975,
+    "counts": {
+      "errors": 0,
+      "false_negative": 1,
+      "false_positive": 0,
+      "matches": 39,
+      "negatives": 20,
+      "no_matches": 20,
+      "positives": 40,
+      "reviews": 1,
+      "safe_negative": 20,
+      "total": 60,
+      "true_positive": 39
+    },
+    "error_rate": 0.0,
+    "false_merge_rate": 0.0,
+    "jev_top1_accuracy": 1.0,
+    "latency_seconds": {
+      "max": 2.8686257507652044,
+      "p50": 1.8365202080458403,
+      "p95": 2.795604484155774,
+      "p99": 2.8686257507652044
+    },
+    "no_match_rate": 0.3333333333333333,
+    "positive_coverage": 0.975,
+    "retrieval_recall_at_1": 1.0,
+    "retrieval_recall_at_k": 1.0,
+    "review_rate": 0.016666666666666666,
+    "safe_negative_rate": 1.0
+  },
+  "test_replay": {
+    "by_scenario": {
+      "amendment_current": {
+        "confirmed_coverage": 1.0,
+        "confirmed_precision": 1.0,
+        "confirmed_precision_95pct_wilson": [
+          0.5101091635454027,
+          1.0
+        ],
+        "confirmed_recall": 1.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 4,
+          "negatives": 0,
+          "no_matches": 0,
+          "positives": 4,
+          "reviews": 0,
+          "safe_negative": 0,
+          "total": 4,
+          "true_positive": 4
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 0.01045212522149086,
+          "p50": 0.009386012330651283,
+          "p95": 0.01045212522149086,
+          "p99": 0.01045212522149086
+        },
+        "no_match_rate": 0.0,
+        "positive_coverage": 1.0,
+        "retrieval_recall_at_1": 1.0,
+        "retrieval_recall_at_k": 1.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 0.0
+      },
+      "amount_drift": {
+        "confirmed_coverage": 1.0,
+        "confirmed_precision": 1.0,
+        "confirmed_precision_95pct_wilson": [
+          0.5101091635454027,
+          1.0
+        ],
+        "confirmed_recall": 1.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 4,
+          "negatives": 0,
+          "no_matches": 0,
+          "positives": 4,
+          "reviews": 0,
+          "safe_negative": 0,
+          "total": 4,
+          "true_positive": 4
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 0.011321833357214928,
+          "p50": 0.010702794417738914,
+          "p95": 0.011321833357214928,
+          "p99": 0.011321833357214928
+        },
+        "no_match_rate": 0.0,
+        "positive_coverage": 1.0,
+        "retrieval_recall_at_1": 1.0,
+        "retrieval_recall_at_k": 1.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 0.0
+      },
+      "currency_conflict_no_match": {
+        "confirmed_coverage": 0.0,
+        "confirmed_precision": 0.0,
+        "confirmed_precision_95pct_wilson": [
+          0.0,
+          0.0
+        ],
+        "confirmed_recall": 0.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 0,
+          "negatives": 4,
+          "no_matches": 4,
+          "positives": 0,
+          "reviews": 0,
+          "safe_negative": 4,
+          "total": 4,
+          "true_positive": 0
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 0.010028092190623283,
+          "p50": 0.00937606394290924,
+          "p95": 0.010028092190623283,
+          "p99": 0.010028092190623283
+        },
+        "no_match_rate": 1.0,
+        "positive_coverage": 0.0,
+        "retrieval_recall_at_1": 0.0,
+        "retrieval_recall_at_k": 0.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 1.0
+      },
+      "facility_alias": {
+        "confirmed_coverage": 1.0,
+        "confirmed_precision": 1.0,
+        "confirmed_precision_95pct_wilson": [
+          0.6755924351161198,
+          1.0
+        ],
+        "confirmed_recall": 1.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 8,
+          "negatives": 0,
+          "no_matches": 0,
+          "positives": 8,
+          "reviews": 0,
+          "safe_negative": 0,
+          "total": 8,
+          "true_positive": 8
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 0.01253066398203373,
+          "p50": 0.00942300446331501,
+          "p95": 0.01253066398203373,
+          "p99": 0.01253066398203373
+        },
+        "no_match_rate": 0.0,
+        "positive_coverage": 1.0,
+        "retrieval_recall_at_1": 1.0,
+        "retrieval_recall_at_k": 1.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 0.0
+      },
+      "legal_suffix_variation": {
+        "confirmed_coverage": 1.0,
+        "confirmed_precision": 1.0,
+        "confirmed_precision_95pct_wilson": [
+          0.5101091635454027,
+          1.0
+        ],
+        "confirmed_recall": 1.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 4,
+          "negatives": 0,
+          "no_matches": 0,
+          "positives": 4,
+          "reviews": 0,
+          "safe_negative": 0,
+          "total": 4,
+          "true_positive": 4
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 0.012892039492726326,
+          "p50": 0.011384226381778717,
+          "p95": 0.012892039492726326,
+          "p99": 0.012892039492726326
+        },
+        "no_match_rate": 0.0,
+        "positive_coverage": 1.0,
+        "retrieval_recall_at_1": 1.0,
+        "retrieval_recall_at_k": 1.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 0.0
+      },
+      "missing_fields": {
+        "confirmed_coverage": 1.0,
+        "confirmed_precision": 1.0,
+        "confirmed_precision_95pct_wilson": [
+          0.5101091635454027,
+          1.0
+        ],
+        "confirmed_recall": 1.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 4,
+          "negatives": 0,
+          "no_matches": 0,
+          "positives": 4,
+          "reviews": 0,
+          "safe_negative": 0,
+          "total": 4,
+          "true_positive": 4
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 0.009856712073087692,
+          "p50": 0.009418334811925888,
+          "p95": 0.009856712073087692,
+          "p99": 0.009856712073087692
+        },
+        "no_match_rate": 0.0,
+        "positive_coverage": 1.0,
+        "retrieval_recall_at_1": 1.0,
+        "retrieval_recall_at_k": 1.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 0.0
+      },
+      "near_name_no_match": {
+        "confirmed_coverage": 0.0,
+        "confirmed_precision": 0.0,
+        "confirmed_precision_95pct_wilson": [
+          0.0,
+          0.0
+        ],
+        "confirmed_recall": 0.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 0,
+          "negatives": 4,
+          "no_matches": 4,
+          "positives": 0,
+          "reviews": 0,
+          "safe_negative": 4,
+          "total": 4,
+          "true_positive": 0
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 0.014390131458640099,
+          "p50": 0.012350877746939659,
+          "p95": 0.014390131458640099,
+          "p99": 0.014390131458640099
+        },
+        "no_match_rate": 1.0,
+        "positive_coverage": 0.0,
+        "retrieval_recall_at_1": 0.0,
+        "retrieval_recall_at_k": 0.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 1.0
+      },
+      "ocr_noise": {
+        "confirmed_coverage": 1.0,
+        "confirmed_precision": 1.0,
+        "confirmed_precision_95pct_wilson": [
+          0.5101091635454027,
+          1.0
+        ],
+        "confirmed_recall": 1.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 4,
+          "negatives": 0,
+          "no_matches": 0,
+          "positives": 4,
+          "reviews": 0,
+          "safe_negative": 0,
+          "total": 4,
+          "true_positive": 4
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 0.011629993095993996,
+          "p50": 0.010392386466264725,
+          "p95": 0.011629993095993996,
+          "p99": 0.011629993095993996
+        },
+        "no_match_rate": 0.0,
+        "positive_coverage": 1.0,
+        "retrieval_recall_at_1": 1.0,
+        "retrieval_recall_at_k": 1.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 0.0
+      },
+      "refinancing_no_match": {
+        "confirmed_coverage": 0.0,
+        "confirmed_precision": 0.0,
+        "confirmed_precision_95pct_wilson": [
+          0.0,
+          0.0
+        ],
+        "confirmed_recall": 0.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 0,
+          "negatives": 4,
+          "no_matches": 4,
+          "positives": 0,
+          "reviews": 0,
+          "safe_negative": 4,
+          "total": 4,
+          "true_positive": 0
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 0.011370103806257248,
+          "p50": 0.01016516238451004,
+          "p95": 0.011370103806257248,
+          "p99": 0.011370103806257248
+        },
+        "no_match_rate": 1.0,
+        "positive_coverage": 0.0,
+        "retrieval_recall_at_1": 0.0,
+        "retrieval_recall_at_k": 0.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 1.0
+      },
+      "same_borrower_sibling": {
+        "confirmed_coverage": 1.0,
+        "confirmed_precision": 1.0,
+        "confirmed_precision_95pct_wilson": [
+          0.5101091635454027,
+          1.0
+        ],
+        "confirmed_recall": 1.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 4,
+          "negatives": 0,
+          "no_matches": 0,
+          "positives": 4,
+          "reviews": 0,
+          "safe_negative": 0,
+          "total": 4,
+          "true_positive": 4
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 0.011089708656072617,
+          "p50": 0.010082045570015907,
+          "p95": 0.011089708656072617,
+          "p99": 0.011089708656072617
+        },
+        "no_match_rate": 0.0,
+        "positive_coverage": 1.0,
+        "retrieval_recall_at_1": 1.0,
+        "retrieval_recall_at_k": 1.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 0.0
+      },
+      "sponsor_confusion_no_match": {
+        "confirmed_coverage": 0.0,
+        "confirmed_precision": 0.0,
+        "confirmed_precision_95pct_wilson": [
+          0.0,
+          0.0
+        ],
+        "confirmed_recall": 0.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 0,
+          "negatives": 4,
+          "no_matches": 4,
+          "positives": 0,
+          "reviews": 0,
+          "safe_negative": 4,
+          "total": 4,
+          "true_positive": 0
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 0.014503953978419304,
+          "p50": 0.012000622227787971,
+          "p95": 0.014503953978419304,
+          "p99": 0.014503953978419304
+        },
+        "no_match_rate": 1.0,
+        "positive_coverage": 0.0,
+        "retrieval_recall_at_1": 0.0,
+        "retrieval_recall_at_k": 0.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 1.0
+      },
+      "stale_amendment": {
+        "confirmed_coverage": 1.0,
+        "confirmed_precision": 1.0,
+        "confirmed_precision_95pct_wilson": [
+          0.5101091635454027,
+          1.0
+        ],
+        "confirmed_recall": 1.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 4,
+          "negatives": 0,
+          "no_matches": 0,
+          "positives": 4,
+          "reviews": 0,
+          "safe_negative": 0,
+          "total": 4,
+          "true_positive": 4
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 0.010431008413434029,
+          "p50": 0.008964983746409416,
+          "p95": 0.010431008413434029,
+          "p99": 0.010431008413434029
+        },
+        "no_match_rate": 0.0,
+        "positive_coverage": 1.0,
+        "retrieval_recall_at_1": 1.0,
+        "retrieval_recall_at_k": 1.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 0.0
+      },
+      "typo_alias": {
+        "confirmed_coverage": 0.75,
+        "confirmed_precision": 1.0,
+        "confirmed_precision_95pct_wilson": [
+          0.4385029682449546,
+          1.0
+        ],
+        "confirmed_recall": 0.75,
+        "counts": {
+          "errors": 0,
+          "false_negative": 1,
+          "false_positive": 0,
+          "matches": 3,
+          "negatives": 0,
+          "no_matches": 0,
+          "positives": 4,
+          "reviews": 1,
+          "safe_negative": 0,
+          "total": 4,
+          "true_positive": 3
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 0.011144710704684258,
+          "p50": 0.009743230417370796,
+          "p95": 0.011144710704684258,
+          "p99": 0.011144710704684258
+        },
+        "no_match_rate": 0.0,
+        "positive_coverage": 0.75,
+        "retrieval_recall_at_1": 1.0,
+        "retrieval_recall_at_k": 1.0,
+        "review_rate": 0.25,
+        "safe_negative_rate": 0.0
+      },
+      "unseen_second_lien_no_match": {
+        "confirmed_coverage": 0.0,
+        "confirmed_precision": 0.0,
+        "confirmed_precision_95pct_wilson": [
+          0.0,
+          0.0
+        ],
+        "confirmed_recall": 0.0,
+        "counts": {
+          "errors": 0,
+          "false_negative": 0,
+          "false_positive": 0,
+          "matches": 0,
+          "negatives": 4,
+          "no_matches": 4,
+          "positives": 0,
+          "reviews": 0,
+          "safe_negative": 4,
+          "total": 4,
+          "true_positive": 0
+        },
+        "error_rate": 0.0,
+        "false_merge_rate": 0.0,
+        "jev_top1_accuracy": 1.0,
+        "latency_seconds": {
+          "max": 0.012571809813380241,
+          "p50": 0.010534841567277908,
+          "p95": 0.012571809813380241,
+          "p99": 0.012571809813380241
+        },
+        "no_match_rate": 1.0,
+        "positive_coverage": 0.0,
+        "retrieval_recall_at_1": 0.0,
+        "retrieval_recall_at_k": 0.0,
+        "review_rate": 0.0,
+        "safe_negative_rate": 1.0
+      }
+    },
+    "confirmed_coverage": 0.65,
+    "confirmed_precision": 1.0,
+    "confirmed_precision_95pct_wilson": [
+      0.9103331462924287,
+      1.0
+    ],
+    "confirmed_recall": 0.975,
+    "counts": {
+      "errors": 0,
+      "false_negative": 1,
+      "false_positive": 0,
+      "matches": 39,
+      "negatives": 20,
+      "no_matches": 20,
+      "positives": 40,
+      "reviews": 1,
+      "safe_negative": 20,
+      "total": 60,
+      "true_positive": 39
+    },
+    "error_rate": 0.0,
+    "false_merge_rate": 0.0,
+    "jev_top1_accuracy": 1.0,
+    "latency_seconds": {
+      "max": 0.014503953978419304,
+      "p50": 0.010392386466264725,
+      "p95": 0.012782111763954163,
+      "p99": 0.014503953978419304
+    },
+    "no_match_rate": 0.3333333333333333,
+    "positive_coverage": 0.975,
+    "retrieval_recall_at_1": 1.0,
+    "retrieval_recall_at_k": 1.0,
+    "review_rate": 0.016666666666666666,
+    "safe_negative_rate": 1.0
+  }
+}

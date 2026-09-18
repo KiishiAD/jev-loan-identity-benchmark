@@ -1,0 +1,18 @@
+{
+  "code_commit": "13347e5450a376dd044dad838b8ba947eb1279f6",
+  "concurrency": 6,
+  "dataset_sha256": "62cfcc60744e0b616e1beee5d1db02f952328a261fcbe0553a74d952d5a06316",
+  "development_rows": 30,
+  "execution_started_utc": "2026-09-18T23:04:30.014589+00:00",
+  "live_responses_sha256": "4a344d7c28c146988168875ec72fc757c250121bb83090b267b1a69e7784febe",
+  "model_requested": "jev-1.13.0",
+  "models_returned": [
+    "jev-1.13.0"
+  ],
+  "platform": "Linux-6.8.0-90-generic-x86_64-with-glibc2.39",
+  "policy_sha256": "1ae20d0aa0dbfebda9ba06bc5edc6a647915787b1ff5dd28472ea85d342869c9",
+  "python": "3.11.15 (main, Jun  2 2026, 22:26:03) [Clang 22.1.3 ]",
+  "report_date": "2026-09-18",
+  "synthetic_only": true,
+  "test_rows": 60
+}
